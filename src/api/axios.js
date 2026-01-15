@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 // Laravel API URL
-const API_URL = 'http://localhost:8000';
+// const API_URL = 'http://localhost:8000';
+const API_URL = 'https://bee-track-backend.onrender.com';
 
 // Create Axios instance
 const api = axios.create({
