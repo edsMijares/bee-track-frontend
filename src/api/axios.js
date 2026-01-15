@@ -8,7 +8,7 @@ const API_URL = 'https://bee-track-backend.onrender.com';
 const api = axios.create({
     baseURL: API_URL,
     withCredentials: true,
-    withXSRFToken: true,
+    // withXSRFToken: true,
     timeout: 10000,
     headers: {
         "Content-Type": "application/json",
